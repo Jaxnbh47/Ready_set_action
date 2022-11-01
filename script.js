@@ -9,13 +9,13 @@ function main() {
 
   //logs all list elements and counts the list length#3
   for (let li of document.querySelectorAll("li"))
-  console.log(li.textContent);
+  console.log(li.innerHTML);
 
   //Set the href of the link to "https://www.example.com" #4
   //update text to "somewhere" #4
   let linkchange = document.querySelector("a");
   linkchange.setAttribute("href", "https://www.example.com");
-  linkchange.textContent = "somewhere";
+  linkchange.innerText = "somewhere";
 
   //hides hide me on click#5
   let hideme = document.getElementById("hide-me")
