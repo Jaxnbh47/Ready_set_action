@@ -18,11 +18,12 @@ function main() {
   linkchange.textContent = "somewhere";
 
   //hides hide me on click#5
-  document.getElementById("hide-me").style.display = "none";
+  let hideme = document.getElementById("hide-me")
+  hideme.style.display = "none";
 
   //show on click#6
-  let showme = document.querySelector("#show-me");
-  showme.style.display = "block";
+  let showme = document.getElementById("show-me");
+  showme.style.display = "";
 
   // welcome name! input to h1 on click#7
   let input = document.querySelector("#name").value;
