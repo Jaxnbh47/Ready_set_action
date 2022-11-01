@@ -20,11 +20,11 @@ function main() {
   //hides hide me on click#5
   document.getElementById("hide-me").style.display = "none";
 
-  //show on click 6
+  //show on click#6
   let showme = document.querySelector("#show-me");
   showme.style.display = "block";
 
-  // welcome name! input to h1 on click
+  // welcome name! input to h1 on click#7
   let input = document.querySelector("#name").value;
   document.querySelector("h1").textContent = `Welcome ${input}!`;
 }
